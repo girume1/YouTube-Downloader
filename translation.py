@@ -20,11 +20,11 @@ Made by @Gir1st
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb to view custom thumbnail.
 
-Made by [Ethiopian Boy 🇪🇹](@Gir1st)
+Made by [Ethiopian Boy 🇪🇹](https://t.meGir1st)
 """
     ABOUT_TEXT = """
 - **Bot :** `YouTube Downloader`
-- **Creator :** [Fayas](https://telegram.me/Gir1st)
+- **Creator :** [Girum](https://telegram.me/Gir1st)
 - **Channel :** [Love ❤️ & Broken Heart 💔](https://telegram.me/capl_pict)
 - **Credits :** `Everyone in this journey`
 - **Source :** [Click here](https://github.com/girume1/YouTube-Downloader)

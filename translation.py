@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-Hello {} , I'am a simple youtube video link to telegram file or media uploader bot with permanent thumbnail support.
+✨Hello👋 {} , I'am a simple youtube video link to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by @FayasNoushad
+Made by @Gir1st
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
@@ -20,22 +20,22 @@ Made by @FayasNoushad
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb to view custom thumbnail.
 
-Made by @FayasNoushad
+Made by [Ethiopian Boy 🇪🇹](@Gir1st)
 """
     ABOUT_TEXT = """
 - **Bot :** `YouTube Downloader`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
+- **Creator :** [Fayas](https://telegram.me/Gir1st)
+- **Channel :** [Love ❤️ & Broken Heart 💔](https://telegram.me/capl_pict)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/FayasNoushad/YouTube-Downloader)
+- **Source :** [Click here](https://github.com/girume1/YouTube-Downloader)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://telegram.me/capl_pict'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/Gir1st')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
@@ -56,7 +56,7 @@ Made by @FayasNoushad
         InlineKeyboardButton('Close', callback_data='close')
         ]]
     )
-    BLOCK_LIST_TEXT = "This url is blocked so I can not upload this URL.\n\nUse @FnURLUploadBot"
+    BLOCK_LIST_TEXT = "This url is blocked so I can not upload this URL.\n\nUse @GIURLUploadBot"
     FORMAT_SELECTION = """<b>Select the desired format:</b> <a href='{}'>file size might be approximate</a>
     
 Send your custum thumbnail if required.
@@ -69,7 +69,7 @@ URL | newfilename | username | password"""
     UPLOAD_START = "<code>Uploading into Telegram...</code>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
-    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @FayasNoushad"
+    CUSTOM_CAPTION_UL_FILE = "<b>Join :-</b> @capl_pict"
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     NO_VOID_FORMAT_FOUND = "<code>{}</code>"
     REPORT_SITE_TEXT = "<code>Sorry not uploading in this site here because this site is reporting site.</code>"

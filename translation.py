@@ -5,7 +5,7 @@ class Translation(object):
     START_TEXT = """
 ✨Hello👋 {} , I'am a simple youtube video link to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by [Elijay](Gir1st)
+Made by [Elijay](https://t.me/Gir1st)
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
@@ -34,8 +34,8 @@ Made by [Ethiopian Boy 🇪🇹](https://t.me/Gir1st)
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/capl_pict'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/Gir1st')
+        InlineKeyboardButton('Channel📢', url='https://telegram.me/capl_pict'),
+        InlineKeyboardButton('Feedback📥', url='https://telegram.me/Gir1st')
         ],[
         InlineKeyboardButton('Help🙏', callback_data='help'),
         InlineKeyboardButton('About 📝', callback_data='about'),

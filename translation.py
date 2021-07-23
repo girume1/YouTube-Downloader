@@ -20,7 +20,7 @@ Made by @Gir1st
 <b><u>Show Thumbnail</u></b>
 ➠ Send /showthumb to view custom thumbnail.
 
-Made by [Ethiopian Boy 🇪🇹](https://t.meGir1st)
+Made by [Ethiopian Boy 🇪🇹](https://t.me/Gir1st)
 """
     ABOUT_TEXT = """
 - **Bot :** `YouTube Downloader`

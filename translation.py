@@ -5,7 +5,7 @@ class Translation(object):
     START_TEXT = """
 ✨Hello👋 {} , I'am a simple youtube video link to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by @Gir1st
+Made by (Elijay](Gir1st)
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
@@ -24,7 +24,7 @@ Made by [Ethiopian Boy 🇪🇹](https://t.me/Gir1st)
 """
     ABOUT_TEXT = """
 - **Bot :** `YouTube Downloader`
-- **Creator :** [Girum](https://telegram.me/Gir1st)
+- **Creator :** [Eljay](https://telegram.me/Gir1st)
 - **Channel :** [Love ❤️ & Broken Heart 💔](https://telegram.me/capl_pict)
 - **Credits :** `Everyone in this journey`
 - **Source :** [Click here](https://github.com/girume1/YouTube-Downloader)
@@ -37,23 +37,23 @@ Made by [Ethiopian Boy 🇪🇹](https://t.me/Gir1st)
         InlineKeyboardButton('Channel', url='https://telegram.me/capl_pict'),
         InlineKeyboardButton('Feedback', url='https://telegram.me/Gir1st')
         ],[
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('Help🙏', callback_data='help'),
+        InlineKeyboardButton('About 📝', callback_data='about'),
+        InlineKeyboardButton('Close❌', callback_data='close')
         ]]
-    )
+    ) 
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('About', callback_data='about'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('Home🏠', callback_data='home'),
+        InlineKeyboardButton('About 📝', callback_data='about'),
+        InlineKeyboardButton('Close❌', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Home', callback_data='home'),
-        InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('Home🏠', callback_data='home'),
+        InlineKeyboardButton('Help🙏', callback_data='help'),
+        InlineKeyboardButton('Close❌', callback_data='close')
         ]]
     )
     BLOCK_LIST_TEXT = "This url is blocked so I can not upload this URL.\n\nUse @GIURLUploadBot"

@@ -5,7 +5,7 @@ class Translation(object):
     START_TEXT = """
 ✨Hello👋 {} , I'am a simple youtube video link to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by (Elijay](Gir1st)
+Made by [Elijay](Gir1st)
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>

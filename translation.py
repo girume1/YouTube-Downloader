@@ -5,7 +5,7 @@ class Translation(object):
     START_TEXT = """
 ✨Hello👋 {} , I'am a simple youtube video link to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by [Elijay](https://t.me/Gir1st)
+Made by [Eljay](https://t.me/Gir1st)
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
@@ -27,7 +27,7 @@ Made by [Ethiopian Boy 🇪🇹](https://t.me/Gir1st)
 - **Creator :** [Eljay](https://telegram.me/Gir1st)
 - **Channel :** [Love ❤️ & Broken Heart 💔](https://telegram.me/capl_pict)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/girume1/YouTube-Downloader)
+- **Source :** [Click here](https://github.com/girume1/YouTube-Downloader_G)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
